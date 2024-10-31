@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STARBUCKS</title>
+  <link rel="shortcut icon" href="assets/img/starbucklogo.png" type="image/png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- Remixicons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+                    <!-- Header -->
+<header id="header" class="header">
+<nav class="nav container">
+  <a href="index.html" class="nav__brand">
+    STAR<span>BUCKS</span>
+  </a>
+<div class="nav__menu" id="nav-menu">
+ <ul class="nav__list">
+   <li class="nav__item">
+     <a href="#home" class="nav__link nav__link--active">Home</a>
+   </li>
+   <li class="nav__item">
+     <a href="#about" class="nav__link">About</a>
+   </li>
+   <li class="nav__item">
+     <a href="#coffee" class="nav__link">Coffee</a>
+   </li>
+   <li class="nav__item">
+     <a href="#discover" class="nav__link">Discover</a>
+   </li>
+   <li class="nav__item">
+     <a href="javascript:void(0)" class="btn btn--primary">
+       Sign in
+     </a>
+   </li>
+ </ul>
+ <span class="nav__close">
+   <i id="nav-close" class="ri-close-line"></i>
+ </span>
+</div>
+ <span class="nav__open">
+   <i id="nav-open" class="ri-menu-5-line"></i>
+ </span>
+</nav>
+</header>
+                    <!-- Main -->
+<main class="main">
+
+                    <!-- Home -->
+<section id="home" class="home">
+<div class="d-grid home__wrapper container">
+<div class="home__content">
+  <h1 class="home__title">Meet Me at <span>Starbucks</span> ..!</h1>
+  <p class="home__description">Starbucks evokes warmth and comfort, offering a welcoming space 
+     to relax or connect over your favorite coffee. It’s where community 
+     and personal moments come together in every sip.</p>
+   <a href="#discover" class="btn btn--primary">Discover</a>
+</div>
+   <img src="assets/img/buck.png" alt="" class="home__img">
+</div>
+</section>
+                     <!-- About -->
+<section id="about" class="about section">
+<div class="d-grid about__wrapper container">
+<div class="about__content">
+  <span class="section__subtitle">About Us</span>
+  <h2 class="section__title">Sip, Relax, and Enjoy – The Starbucks Way..🚶‍♂️‍➡️!</h2>
+  <p class="about__description">
+    Starbucks is a global coffeehouse chain known for its high-quality 
+    coffee, handcrafted beverages, and cozy atmosphere. Founded in 1971 
+    in Seattle, it has grown into a symbol of premium coffee culture, 
+    offering a wide variety of drinks, snacks, and personalized experiences. 
+    Starbucks places a strong emphasis on customer satisfaction, sustainability, 
+    and fostering a sense of community in its stores worldwide.</p>
+  <a href="javascript:void(0)" class="btn btn--primary">Know More</a>
+</div>
+  <img src="assets/img/aabout.png" alt="" class="about__img">
+</div>
+</section>
+                     <!-- Coffee -->
+<section id="coffee" class="Coffee section">
+<div class="section__header">
+   <span class="section__subtitle">Coffee</span>
+   <h2 class="section__title">Most Popular</h2>
+</div>
+<div class="Coffee__wrapper container swiper">
+<div class="swiper-wrapper">
+            <!-- Coffee 1 -->
+<div class="Coffee__item swiper-slide">
+   <img src="assets/img/drink1.png" alt="" class="Coffee__img">
+<div class="Coffee__info">
+   <p class="Coffee__name">Unicorn Frappuccino</p>
+   <h3 class="Coffee__amount">$78</h3>
+</div>
+</div>
+            <!--  Coffee 2 -->
+<div class="Coffee__item swiper-slide">
+   <img src="assets/img/drink2.png" alt="" class="Coffee__img">
+<div class="Coffee__info">
+   <p class="Coffee__name">Crumble Frappuccino</p>
+   <h3 class="Coffee__amount">$90</h3>
+</div>
+</div>
+            <!--  Coffee 3 -->
+<div class="Coffee__item swiper-slide">
+   <img src="assets/img/drink3.png" alt="" class="Coffee__img">
+<div class="Coffee__info">
+   <p class="Coffee__name">Flamingo Frappuccino</p>
+   <h3 class="Coffee__amount">$110</h3>
+</div>
+</div>
+            <!--  Coffee 4 -->
+<div class="Coffee__item swiper-slide">
+   <img src="assets/img/drink4.png" alt="" class="Coffee__img">
+<div class="Coffee__info">
+   <p class="Coffee__name">Green tea Frappuccino</p>
+   <h3 class="Coffee__amount">$85</h3>
+</div>
+</div>
+            <!--  Coffee 5 -->
+<div class="Coffee__item swiper-slide">
+   <img src="assets/img/drink5.png" alt="" class="Coffee__img">
+<div class="Coffee__info">
+   <p class="Coffee__name">Strawberry Frappuccino</p>
+   <h3 class="Coffee__amount">$100</h3>
+</div>
+</div>
+</div>
+                <!-- Swiper navigation buttons -->
+<div class="swiper__navigation">
+<div class="swiper__prev swiper__button">
+    <i class="ri-arrow-left-s-line"></i>
+</div>
+<div class="swiper__next swiper__button">
+    <i class="ri-arrow-right-s-line"></i>
+</div>
+</div>
+</div>
+</section>
+                    <!-- Video -->
+<section class="video section">
+<div class="section__header">
+    <span class="section__subtitle">Ads</span>
+    <h2 class="section__title">Starbucks</h2>
+</div>
+<div class="d-grid video__wrapper container">
+<div class="video__content">
+    <video id="video-tour" class="video__tour">
+      <source src="assets/video/ddemo.mp4" type="video/mp4">
+    </video>
+<div class="video__info">
+    <button id="video-btn" class="video__btn">
+      <i id="video-icon" class="ri-play-fill"></i>
+    </button>
+<div class="video__info-wrapper">               
+     <p class="video__info-description">Play Now</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+                   <!-- Discover -->
+<section id="discover" class="discover section">
+<div class="section__header">
+    <span class="section__subtitle">Discover</span>
+    <h2 class="section__title">Most Popular</h2>
+</div>
+<div class="d-grid discover__wrapper container">
+          <!-- discover 1 -->
+<div class="discover__item">
+<div class="discover__img-wrapper">
+    <img src="assets/img/special1.png" alt="" class="discover__img">
+    <span class="discover__price">$599</span>
+</div>
+<div class="discover__info">
+   <h3 class="discover__name">Starbucks Coffee Tatte</h3>        
+   <a href="javascript:void(0)" class="discover__btn">
+       Order Now
+   </a>
+</div>
+</div>
+          <!-- discover 2 -->
+<div class="discover__item">
+<div class="discover__img-wrapper">
+    <img src="assets/img/special2.png" alt="" class="discover__img">
+    <span class="discover__price">$560</span>
+</div>
+<div class="discover__info">
+   <h3 class="discover__name">Starbucks Mocha Coffee</h3>  
+   <a href="javascript:void(0)" class="discover__btn">
+       Order Now
+   </a>
+</div>
+</div>
+          <!-- discover 3 -->
+<div class="discover__item">
+<div class="discover__img-wrapper">
+    <img src="assets/img/special3.png" alt="" class="discover__img">
+    <span class="discover__price">$499</span>
+</div>
+<div class="discover__info">
+   <h3 class="discover__name">Starbucks Smoothie Coffee</h3>
+   <a href="javascript:void(0)" class="discover__btn">
+       Order Now
+   </a>
+</div>
+</div>
+</div>
+</section>
+                    <!-- Offer -->
+<section class="offer section">
+<div class="d-grid offer__wrapper container">
+<div class="offer__content">
+    <span class="offer__subtitle">Special Offer..!</span>
+    <p class="offer__duration">50% OFF</p>
+    <h3 class="offer__title">ICE COFFEE</h3>
+    <p class="offer__description">
+        Exclusive Starbucks Offers Just for You!
+        Indulge in special deals and rewards, crafted to make every sip more rewarding.
+    </p>
+<div class="offer__price">
+    <span class="offer__price-before">$599</span>
+    <span class="offer__price-now">$299</span>
+</div>
+    <a href="javascript:void" class="btn btn--primary">Get Order</a>
+</div>
+    <img src="assets/img/OFFERR.png" alt="" class="offer__img">
+</div>
+</section>
+                    <!-- Newsletter -->
+<section class="newsletter section">
+<div class="d-grid newsletter__wrapper container">
+<div class="newsletter__content">
+    <h2 class="newsletter__title">Subscribe to our newsletter</h2>
+    <p class="newsletter__description">
+        Receive exclusive offers, latest news, updates and discounts.
+    </p>
+</div>
+<form class="newsletter__form">
+<div class="form__group">
+    <input type="email" class="form__input" placeholder="Enter Email Address" required>
+    <button class="btn btn--primary">Subscribe</button>
+</div>
+</form>
+</div>
+</section>
+</main>
+                    <!-- Footer -->
+<footer class="footer">
+<div class="d-grid footer__wrapper container">
+<div class="footer__content">
+    <h3 class="footer__brand">
+       STAR<span>BUCKS</span>
+    </h3>
+    <p class="footer__description">
+      Stay connected with Starbucks and never miss out on the latest flavors and offers. 
+    </p>
+<div class="social">
+ <ul class="social__list">
+   <li class="social__item">
+     <a href="javascriot:void(0)" class="social__link">
+        <i class="ri-facebook-fill"></i>
+     </a>
+   </li>
+   <li class="social__item">
+     <a href="javascriot:void(0)" class="social__link">
+        <i class="ri-twitter-fill"></i>
+     </a>
+   </li>
+   <li class="social__item">
+     <a href="javascriot:void(0)" class="social__link">
+        <i class="ri-instagram-fill"></i>
+     </a>
+   </li>
+   <li class="social__item">
+     <a href="javascriot:void(0)" class="social__link">
+        <i class="ri-youtube-fill"></i>
+     </a>
+   </li>
+ </ul>
+</div>
+</div>
+<div class="footer__content">
+   <h4 class="footer__title">Quick Links</h4>
+ <ul class="footer__list">
+    <li class="footer__item">
+        <a href="#" class="footer__link">FAQs</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Privacy Policy</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Customer Service</a>
+    </li>
+ </ul>
+</div>
+<div class="footer__content">
+   <h4 class="footer__title">Responsibility</h4>
+ <ul class="footer__list">
+    <li class="footer__item">
+        <a href="#" class="footer__link">Diversity</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Community</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Ethical Sourcing</a>
+    </li>
+ </ul>
+</div>
+<div class="footer__content">
+   <h4 class="footer__title">Support Us</h4>
+ <ul class="footer__list">
+    <li class="footer__item">
+        <a href="#" class="footer__link">Terms & Conditions</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Customer Privacy</a>
+    </li>
+    <li class="footer__item">
+        <a href="#" class="footer__link">Customer Landline</a>
+    </li>
+ </ul>
+</div>
+</div>
+ <p class="footer__copyright container">
+      Copyright © STAR<span>BUCKS</span> 2024. All Rights Reserved
+ </p>
+</footer>
+         <!-- Scroll top-->
+<a href="#" id="scrolltop" class="scrolltop">
+    <i class="ri-arrow-up-s-line"></i>
+</a>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- Main JS -->
+  <script src="main.js"></script>
+</body>
+</html>
+
